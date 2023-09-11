@@ -11,7 +11,7 @@ body {
 .App {
   text-align: center;
   background: rgb(233, 255, 200);
-  margin: 0 25%;
+  margin: 0 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,8 +43,8 @@ body {
   overflow: hidden;
 }
 .foodpicture {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 8%;
   align-self: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -128,6 +128,7 @@ form {
   background-color: #fff;
   color: rgba(81, 166, 90, 0.938);
   transition: all .2s ease-in-out;
+  cursor: pointer;
 }
 .dropdown {
   margin: 0 10px;
@@ -165,13 +166,14 @@ form {
 }
 .list {
   text-align: left;
-  margin-left: 100px; 
+  margin-left: 15gitgi0px; 
   width: 80%;
   
 }
 .list li {
   font-size: 22px;
   font-family: 'Montserrat', sans-serif;
+  width: 80%;
 }
 
 .footerContainer {
