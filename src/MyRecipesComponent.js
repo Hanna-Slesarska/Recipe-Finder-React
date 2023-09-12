@@ -6,7 +6,7 @@ function MyRecipesComponent({label, image, index, calories, weight, serving, ing
     return (
         
             <div className='container' key = {index}> 
-                <h2 className="label"> { label }</h2>
+                <h2 className="label"> { label?.substring(0, 37) }</h2>
                 <div className="line">
                     <p className="info lineobject span"> <span className='kcal'>Servings: </span> <span className='span'> </span>{ serving?.toFixed() }</p>
                     <p className='info lineobject'> { calories?.toFixed()} <span className='kcal'> Kcal </span> </p>
